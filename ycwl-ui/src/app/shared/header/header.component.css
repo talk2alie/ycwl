@@ -14,7 +14,7 @@
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem !important;
+  padding: 0.60rem 1rem !important;
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
   color: #FFFFFF;
@@ -209,6 +209,10 @@
   position: static;
 }
 
+.nav-link.donate {
+  background-color: #BF0A30;
+}
+
 .navbar-text {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -266,13 +270,30 @@
   overflow-y: auto;
 }
 
-@media (max-width: 912px) {
+.navbar {
+  margin-left: -24px;
+}
+
+.logo > img {
+  max-width: 120px;
+  margin: 15px auto;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+@media (max-width: 992px) {
   .logo {
     display: none;
   }
 
   .nav-link {
     text-align: left;
+  }
+
+  .navbar-brand {
+    display: inline;
   }
 }
 
