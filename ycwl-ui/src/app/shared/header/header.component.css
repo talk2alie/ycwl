@@ -623,3 +623,10 @@
   background-color: #DFE1E2;
   transition: background-color 0.35s ease-in-out;
 }
+
+.casey {
+  background-image: url('../../../assets/img/header/casey.jpg');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
