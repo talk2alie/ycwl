@@ -227,11 +227,8 @@
   src: url(assets/fonts/Inter-Thin.ttf);
 }
 
-
 body {
   margin: 0;
   padding: 0;
-  background-color: #DBDBDB;
   font-family: 'Inter Regular';
 }
-

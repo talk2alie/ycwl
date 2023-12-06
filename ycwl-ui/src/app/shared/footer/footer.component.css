@@ -1,0 +1,29 @@
+footer {
+  min-height: 200px;
+}
+
+.logo {
+  max-width: 62px;
+  display: block;
+  margin: 20px auto 5px auto;
+}
+
+.title {
+  font-family: 'Inter Semi Bold';
+  margin: 0;
+}
+
+.title-of {
+  display: inline-block;
+  color: #BF0A30;
+}
+
+.footer-border {
+  min-height: 30px;
+  background-color: #DFE1E2;
+}
+
+.credit {
+  font-size: 0.8rem;
+  color: #B8B8B8;
+}
