@@ -5,62 +5,33 @@
   line-height: 2.5rem;
 }
 
+.carousel {
+  margin-top: 2rem;
+}
+
 .carousel-img {
   width: 100%;
 }
 
 .carousel-title {
   display: block;
-  font-weight: 400;
-  font-size: 1.5rem;
-  margin: 1rem auto;
+  font-size: 2rem;
+  margin: 0.5rem auto 1rem auto;
+  font-family: 'Inter Regular';
 }
 
 .carousel-text {
   line-height: 2rem;
 }
 
-/* ngb-carousel {
-  max-width: 100%;
-  margin: 50px auto;
+.card {
+  box-shadow: 0 0.25rem 0.5rem #0000001a;
 }
 
-ngb-carousel img {
-  width: 100%;
-  outline: none;
+.card-body {
+  padding: 1.5rem;
 }
 
-ngb-carousel {
-  width: inherit;
-  height: inherit;
+.card-text {
+  margin: 1.5rem auto;
 }
-
-.carousel-inner {
-  overflow: visible;
-}
-
-.carousel-item {
-  display: flex !important;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 1.2s ease-in-out, visibility 1.2s;
-  z-index: -1;
-}
-
-.carousel-item.active{
-  opacity: 1;
-  visibility: visible;
-  z-index: 10;
-}
-
-.carousel-control-prev {
-   z-index: 20;
-}
-
-.carousel-control-next {
-   z-index: 20;
-}
-
-.carousel-indicators{
-  z-index: 20;
-} */

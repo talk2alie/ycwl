@@ -246,11 +246,16 @@ body {
 
 .view-all-link, .view-all-link:active {
   color: #002868;
-  font-style: italic;
   text-decoration: none;
+  display: block;
+  margin: 1rem 0;
 }
 
 .view-all-link:hover {
   color: #BF0A30;
   transition: color ease-in-out 0.35s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
 }
