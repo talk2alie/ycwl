@@ -232,3 +232,25 @@ body {
   padding: 0;
   font-family: 'Inter Regular';
 }
+
+.btn-primary {
+  background-color: #002868;
+  border-color: #002868;
+}
+
+.btn-primary:hover {
+  background-color: #BF0A30;
+  border-color: #BF0A30;
+  transition: background-color ease-in-out 0.35s, border-color ease-in-out 0.35s;
+}
+
+.view-all-link, .view-all-link:active {
+  color: #002868;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.view-all-link:hover {
+  color: #BF0A30;
+  transition: color ease-in-out 0.35s;
+}
