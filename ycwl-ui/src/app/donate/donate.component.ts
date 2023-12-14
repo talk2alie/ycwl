@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { BannerComponent } from '../shared/banner/banner.component';
 
 @Component({
   selector: 'ycwl-donate',
   standalone: true,
-  imports: [],
+  imports: [BannerComponent],
   templateUrl: './donate.component.html',
   styleUrl: './donate.component.css'
 })
