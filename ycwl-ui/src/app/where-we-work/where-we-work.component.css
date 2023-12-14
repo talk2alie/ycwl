@@ -1,0 +1,41 @@
+.lead {
+  box-shadow: 0 0.25rem 0.5rem #0000001a;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  line-height: 2.5rem;
+}
+
+.accordion-button {
+  color: #616161;
+  font-size: 1.2rem;
+}
+
+.accordion-button:not(.collapsed), .accordion-button:hover {
+  color: #45648C;
+  background-color: var(--bs-accordion-active-bg);
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+  background-color: #EEF1F5;
+  transition: background-color ease-in-out 0.35s, color ease-in-out 0.35s;
+}
+
+.accordion-body {
+  padding: 15px 45px;
+}
+
+.accordion-body > b {
+  display: block;
+  margin: 1rem 0;
+}
+
+.accordion-body > p {
+  margin: 2rem auto;
+}
+
+iframe {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+  border: 0;
+  margin-top: 1rem;
+}

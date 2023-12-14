@@ -10,5 +10,5 @@ import { CommonModule } from '@angular/common';
 })
 export class BannerComponent {
   @Input() pageName: string = 'Page Name';
-  @Input() imageName?: string = 'default';
+  @Input() imageName?: string = 'default.jpg';
 }
