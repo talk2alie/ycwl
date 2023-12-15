@@ -1,0 +1,21 @@
+.card {
+  box-shadow: 0 0.25rem 0.5rem #0000001a;
+  margin: 15px auto;
+  background-color: #EEF1F5;
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+.card a, .card a:link {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: #002868;
+}
+
+.card a:active, .card a:hover {
+  color: #BF0A30;
+}
